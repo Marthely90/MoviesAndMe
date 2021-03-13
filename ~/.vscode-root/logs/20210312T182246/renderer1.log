@@ -1,0 +1,68 @@
+[2021-03-12 19:18:51.733] [renderer1] [error] <syntax> TypeScript Server Error (4.2.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:153121:22)
+    at ScriptInfo.positionToLineOffset (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:153088:17)
+    at toProtocolTextSpan (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:161051:35)
+    at /snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160510:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160510:39)
+    at IOSession.Session.getNavigationTree (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160521:32)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:159306:61)
+    at /snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:88
+    at IOSession.Session.executeWithRequestId (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160954:28)
+    at IOSession.Session.executeCommand (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:33)
+    at IOSession.Session.onMessage (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160989:35)
+    at Interface.<anonymous> (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:163650:31)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:329:10)
+    at Interface._normalWrite (readline.js:474:12)
+    at Socket.ondata (readline.js:186:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23): Error: <syntax> TypeScript Server Error (4.2.3)
+Debug Failure. False expression: Expected line to be non-zero
+Error: Debug Failure. False expression: Expected line to be non-zero
+    at failIfInvalidLocation (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:153121:22)
+    at ScriptInfo.positionToLineOffset (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:153088:17)
+    at toProtocolTextSpan (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:161051:35)
+    at /snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160510:68
+    at Array.map (<anonymous>)
+    at IOSession.Session.toLocationNavigationTree (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160510:39)
+    at IOSession.Session.getNavigationTree (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160521:32)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:159306:61)
+    at /snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:88
+    at IOSession.Session.executeWithRequestId (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160954:28)
+    at IOSession.Session.executeCommand (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:33)
+    at IOSession.Session.onMessage (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160989:35)
+    at Interface.<anonymous> (/snap/code/58/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:163650:31)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:329:10)
+    at Interface._normalWrite (readline.js:474:12)
+    at Socket.ondata (readline.js:186:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+	at Function.create (/snap/code/58/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:53151)
+	at p.dispatchResponse (/snap/code/58/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:47026)
+	at p.dispatchMessage (/snap/code/58/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:45885)
+	at /snap/code/58/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:45395
+	at g.fire (/snap/code/58/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at g.onLengthData (/snap/code/58/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:45:60030)
+	at Socket.<anonymous> (/snap/code/58/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:45:59678)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-03-13 03:05:34.017] [renderer1] [info] The pty host became responsive again
+[2021-03-13 03:22:11.589] [renderer1] [warning] {}
+[2021-03-13 03:22:32.851] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.typescript-language-features' took 100% of 7162.02ms, saved PROFILE here: 'file:///tmp/exthost-909b5a.cpuprofile' [{"id":"program","total":20,"percentage":0},{"id":"self","total":17750,"percentage":0},{"id":"vscode.typescript-language-features","total":7144009,"percentage":100}]
+[2021-03-13 03:22:34.801] [renderer1] [error] Server returned 422: Error: Server returned 422
+    at Object.p [as asText] (file:///snap/code/58/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:631:134974)
+    at s (file:///snap/code/58/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1494:48262)
+    at async n._processCpuProfile (file:///snap/code/58/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1687:20305)

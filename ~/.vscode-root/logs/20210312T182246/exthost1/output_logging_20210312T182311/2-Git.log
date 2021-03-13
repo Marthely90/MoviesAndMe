@@ -1,0 +1,1096 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/gby/reactRedux/MoviesAndMe
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :Helpers/filmData.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Helpers/filmData.js
+> git cat-file -s d74fbee2f7c021638b70841195de8cf6fd7041e3
+> git check-ignore -v -z --stdin
+> git show --textconv :API/TMDBApi.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/API/TMDBApi.js
+> git cat-file -s 3aa946ee6eb688fe104905c38cdc9c9c6b1fbf41
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :API/TMDBApi.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/API/TMDBApi.js
+> git cat-file -s 3aa946ee6eb688fe104905c38cdc9c9c6b1fbf41
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :API/TMDBApi.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/API/TMDBApi.js
+> git cat-file -s 3aa946ee6eb688fe104905c38cdc9c9c6b1fbf41
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :API/TMDBApi.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/API/TMDBApi.js
+> git cat-file -s 3aa946ee6eb688fe104905c38cdc9c9c6b1fbf41
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :API/TMDBApi.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/API/TMDBApi.js
+> git cat-file -s 3aa946ee6eb688fe104905c38cdc9c9c6b1fbf41
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git show --textconv :Components/Search.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/Search.js
+> git cat-file -s d514e7e6a2e6a1251c471dc025a2f9b819f1acd3
+> git show --textconv :Components/filmItem.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/filmItem.js
+> git cat-file -s a7fcc78a96fbf74aa9b1eb58a6cbbbd011e4c2d0
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :API/TMDBApi.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/API/TMDBApi.js
+> git cat-file -s 3aa946ee6eb688fe104905c38cdc9c9c6b1fbf41
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :API/TMDBApi.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/API/TMDBApi.js
+> git cat-file -s 3aa946ee6eb688fe104905c38cdc9c9c6b1fbf41
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :API/TMDBApi.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/API/TMDBApi.js
+> git cat-file -s 3aa946ee6eb688fe104905c38cdc9c9c6b1fbf41
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git show --textconv :package.json
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/package.json
+> git cat-file -s c199aedbe7e9525c38c6fa1ec4fb01dfb45eafbd
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :Store/Reducers/favoriteReducer.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Store/Reducers/favoriteReducer.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Store/configureStore.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Store/configureStore.js
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Components/FilmDetail.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/Components/FilmDetail.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :App.js
+> git ls-files --stage -- /home/gby/reactRedux/MoviesAndMe/App.js
+> git cat-file -s 6e67c6c2132110fa4050c42497eaaa74cda92760
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

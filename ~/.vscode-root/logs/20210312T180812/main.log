@@ -1,0 +1,4 @@
+[2021-03-12 18:08:16.667] [main] [info] update#setState idle
+[2021-03-12 18:08:31.827] [main] [error] file: Refused to load resource /snap/code/57/usr/share/code/resources/app/extensions/theme-seti/icons/seti.woff from file: protocol (original URL: file:///snap/code/57/usr/share/code/resources/app/extensions/theme-seti/icons/seti.woff)
+[2021-03-12 18:08:46.668] [main] [info] update#setState checking for updates
+[2021-03-12 18:08:46.763] [main] [info] update#setState idle
