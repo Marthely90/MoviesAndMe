@@ -5,6 +5,7 @@ import { StyleSheet, View, TextInput, Button, Text, FlatList, ActivityIndicator 
 import FilmItem from './filmItem'
 // import FilmItem from './FilmItem'
 import { getFilmsFromApiWithSearchedText } from '../API/TMDBApi'
+import { connect } from 'react-redux'
 
 class Search extends React.Component {
 
@@ -65,7 +66,6 @@ class Search extends React.Component {
 }
 
   render() {
-    console.log(this.state.isLoading)
     return (
       <View style={styles.main_container}>
         <TextInput
@@ -77,8 +77,14 @@ class Search extends React.Component {
         <Button title='Rechercher' onPress={() => this._searchFilms()}/>
         <FlatList
         data={this.state.films}
+        extraData={this.props.favoritesFilm}
         keyExtractor={(item) => item.id.toString()}
-        renderItem={({item}) => <FilmItem film={item} displayDetailForFilm={this._displayDetailForFilm} />}
+        renderItem={({item}) => 
+          <FilmItem 
+            film={item}
+            isThisFilmFavorite={(this.props.favoritesFilm.findIndex(film => film.id === item.id) !== -1) ? true : false }
+            displayDetailForFilm={this._displayDetailForFilm} 
+          />}
         onEndReachedThreshold={0.5}
         onEndReached={() => {
             if (this.page < this.totalPages) { // On vérifie qu'on n'a pas atteint la fin de la pagination (totalPages) avant de charger plus d'éléments
@@ -122,4 +128,11 @@ const styles = StyleSheet.create({
   }
 })
 
-export default Search
+// On connecte le store Redux, ainsi que les films favoris du state de notre application, à notre component Search
+const mapStateToProps = state => {
+  return {
+    favoritesFilm: state.favoritesFilm
+  }
+}
+
+export default connect(mapStateToProps)(Search)

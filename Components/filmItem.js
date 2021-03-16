@@ -6,7 +6,8 @@ import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native'
 
 class FilmItem extends React.Component {
   render() {
-    const { film, displayDetailForFilm } = this.props
+    const { film, displayDetailForFilm, isThisFilmFavorite } = this.props
+    const sourceImage = require('../Images/ic_favorite.png')
     // console.log(film)
     return (
       <TouchableOpacity style={styles.main_container} onPress={() => displayDetailForFilm(film.id)}>
@@ -16,6 +17,7 @@ class FilmItem extends React.Component {
         />
         <View style={styles.content_container}>
           <View style={styles.header_container}>
+            { isThisFilmFavorite ? <Image style={styles.favorite_image} source={sourceImage}/> : null }
             <Text style={styles.title_text}>{film.title}</Text>
             <Text style={styles.vote_text}>{film.vote_average}</Text>
           </View>
@@ -76,6 +78,11 @@ const styles = StyleSheet.create({
   date_text: {
     textAlign: 'right',
     fontSize: 14
+  },
+  favorite_image: {
+    width: 20,
+    height: 20,
+    margin: 10
   }
 })
 
