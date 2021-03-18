@@ -12,10 +12,13 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import Search from './Components/Search'
 import FilmDetail from './Components/FilmDetail'
 import Favorites from './Components/Favorites'
+import Test from './Components/Test'
+
 import { Provider } from 'react-redux'
 import Store from './Store/configureStore'
 
 const RechercheStack = createStackNavigator();
+const FavorieStack = createStackNavigator();
 
 function RechercheStackScreen() {
   return (
@@ -23,6 +26,14 @@ function RechercheStackScreen() {
       <RechercheStack.Screen name="Recherche" component={Search} />
       <RechercheStack.Screen name="Détail" component={FilmDetail} />
     </RechercheStack.Navigator>
+  );
+}
+function FavorieStackScreen() {
+  return (
+    <FavorieStack.Navigator>
+      <FavorieStack.Screen name="Favories" component={Favorites} />
+      <FavorieStack.Screen name="Détail" component={FilmDetail} />
+    </FavorieStack.Navigator>
   );
 }
 
@@ -61,7 +72,8 @@ function App() {
           })}
         >
           <Tab.Screen name="Recherche" component={RechercheStackScreen}  />
-          <Tab.Screen name="Favories" component={Favorites} />
+          <Tab.Screen name="Favories" component={FavorieStackScreen} />
+          <Tab.Screen name="Test" component={Test} />
         </Tab.Navigator>
       </NavigationContainer>
     </Provider>
