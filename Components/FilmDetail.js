@@ -1,13 +1,31 @@
 // Components/FilmDetail.js
 
 import React from 'react'
-import { StyleSheet, Text, View, ActivityIndicator, ScrollView, Image, TouchableOpacity } from 'react-native'
+import { StyleSheet, Share, Text, View, ActivityIndicator, ScrollView, Image, TouchableOpacity } from 'react-native'
 import { getFilmDetailFromApi, getImageFromApi } from '../API/TMDBApi'
 import moment from 'moment'
 import numeral from 'numeral'
 import { connect } from 'react-redux'
 
 class FilmDetail extends React.Component {
+
+  static navigationOptions = ({ navigation }) => {
+    const { params } = navigation.state
+    // On accède à la fonction shareFilm et au film via les paramètres qu'on a ajouté à la navigation
+    if (params.film != undefined && Platform.OS === 'ios') {
+      return {
+          // On a besoin d'afficher une image, il faut donc passe par une Touchable une fois de plus
+          headerRight: <TouchableOpacity
+                          style={styles.share_touchable_headerrightbutton}
+                          onPress={() => params.shareFilm()}>
+                          <Image
+                            style={styles.share_image}
+                            source={require('../Images/ic_share.ios.png')} />
+                        </TouchableOpacity>
+      }
+    }
+  }
+
   constructor(props) {
     super(props)
     this.state = {
@@ -100,11 +118,32 @@ class FilmDetail extends React.Component {
   })
 }
 
+_shareFilm() {
+  const { film } = this.state
+  Share.share({ title: film.title, message: film.overview })
+}
+
+_displayFloatingActionButton() {
+  const { film } = this.state
+  if (film != undefined && Platform.OS === 'android') { // Uniquement sur Android et lorsque le film est chargé
+    return (
+      <TouchableOpacity
+        style={styles.share_touchable_floatingactionbutton}
+        onPress={() => this._shareFilm()}>
+        <Image
+          style={styles.share_image}
+          source={require('../Images/ic_share.android.png')} />
+      </TouchableOpacity>
+    )
+  }
+}
+
   render() {
     return (
       <View style={styles.main_container}>
         {this._displayLoading()}
         {this._displayFilm()}
+        {this._displayFloatingActionButton()}
       </View>
     )
   }
@@ -160,6 +199,10 @@ const styles = StyleSheet.create({
     favorite_image: {
       width: 40,
       height: 40
+  },
+  share_image: {
+    width: 30,
+    height: 30
   }
   })
 

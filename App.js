@@ -71,9 +71,9 @@ function App() {
             },
           })}
         >
+          <Tab.Screen name="Test" component={Test} />
           <Tab.Screen name="Recherche" component={RechercheStackScreen}  />
           <Tab.Screen name="Favories" component={FavorieStackScreen} />
-          <Tab.Screen name="Test" component={Test} />
         </Tab.Navigator>
       </NavigationContainer>
     </Provider>
